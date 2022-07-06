@@ -15,10 +15,10 @@
     
     <div id="card">
      <model-viewer id ="chair"
-      camera-controls src="/SheenChair.glb"
-      alt="A 3D model of a shoe" 
+      camera-controls src="/a.glb"
+      alt="factory layout" 
       ar camera-orbit="33deg 67deg auto"
-      ios-src="/chair-varient.usdz" shadow-intensity="1">
+      ios-src="/a.usdz" shadow-intensity="1">
       <button slot="ar-button" class="ar-button">View in your space</button>
       <div id="ar-prompt">
         <img src="https://cdn.khronos.org/assets/blog/live-gltf-asset-editing-in-your-browsereven-in-ar/hand.png">
@@ -30,22 +30,7 @@
   </model-viewer>
 </div>
   <//>
-    <div id="card">
-     <model-viewer id ="MODEL2"
-      camera-controls src="/Chair.glb"
-      alt="A 3D model of a shoe" 
-      ar camera-orbit="33deg 67deg auto"
-      ios-src="/chair-varient.usdz" shadow-intensity="1">
-      <button slot="ar-button" class="ar-button">View in your space</button>
-      <div id="ar-prompt">
-        <img src="https://cdn.khronos.org/assets/blog/live-gltf-asset-editing-in-your-browsereven-in-ar/hand.png">
-      </div>
-       <div class="control">
-         <div>Variant: <select id="variant"></select></div>
-       </div>
- <//>
-  </model-viewer>
-</div>
+    
     
     
  </body>
@@ -64,7 +49,7 @@
     </script>
 
     <script>
-      const modelViewerVariants = document.querySelector("model-viewer#chair");
+      const modelViewerVariants = document.querySelector("model-viewer#a");
       
        const modelViewerVariants = document.querySelector("model-viewer#MODEL2");
       
